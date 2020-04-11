@@ -14,3 +14,9 @@ build_model.py contain GoogLeNet model which is used during Training and Inferen
 train.py contain training details like optimizer, epochs, file logger, training and validation loss calculation.
 
 app.py is useful in predicting the class of Image.
+
+run below commands in command prompt
+
+1. cd data
+2. python generate_valid_data.py
+3. python flask_api/app.py
