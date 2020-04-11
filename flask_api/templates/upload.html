@@ -5,7 +5,8 @@
             <p>Upload the image and get results.</p>
         </h4>
     <form method="POST" enctype="multipart/form-data" action={{ url_for("upload_image_file") }}>
-        <input type="file" name="file" accept="image/*" >
-        &emsp;&emsp;&emsp; <input type="submit" value="Upload" name="submit">
+        <input type="file" style="width:250px" name="file" accept="image/*" >
+<br> 
+        &emsp;&emsp;&emsp; <input type="submit" class="btn btn2 btn-primary btn-block btn-large" value="Upload" name="submit">
     </form>
 {% endblock %}
